@@ -1,0 +1,32 @@
+.body {
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #343a40;
+  margin: auto;
+  padding: 0.1em;
+  display: block;
+}
+
+.navbar h1 {
+  color: #fff;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.navbar h1:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  display: inline-flex;
+}
+
+li {
+  color: white;
+  padding: 1.6em;
+}
