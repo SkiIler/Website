@@ -1,8 +1,10 @@
 .body {
   background-color: #f8f9fa;
   margin: 0;
+  font-family: roboto;
 }
 
+/* ------------------Header --------------*/
 .navbar {
   background-color: #343a40;
   margin: auto;
@@ -20,13 +22,97 @@
   cursor: pointer;
 }
 
-ul {
+.ulHeader {
   list-style: none;
   float: right;
   display: inline-flex;
+  margin: 5px;
 }
 
-li {
+.liHeader {
   color: white;
   padding: 1.6em;
 }
+
+.liHeader:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  text-decoration: underline;
+}
+
+/*------------------/Header----------------*/
+.imgs {
+  margin-top: 0;
+}
+
+#cell_1 {
+  background-image: url(img/img1.jpg);
+}
+
+/*@media (min-width: 768px) {
+  .top_page {
+    min-height: calc(100%-80px);
+    height: 20px;
+  }
+
+  .imgs {
+    display: table-row
+  }
+
+  .cell {
+    height: 100%;
+    width: 33.3%;
+    display: table-cell;
+  }
+}
+
+@media(min-width:0px) {
+  .top_page {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: table;
+    overflow: auto;
+  }
+
+  .cell {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    list-style-type: none;
+    line-height: 180%;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .imgs {
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+  }
+
+  #cell_1 {
+    background-image: url(img/img1.jpg);
+  }
+
+  #cell_2 {
+    background-image: url(img/img2.jpg);
+  }
+
+  #cell_3 {
+    background-image: url(img/img3.jpg);
+  }
+}
+
+.section {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}*/
