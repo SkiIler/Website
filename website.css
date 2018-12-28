@@ -42,12 +42,17 @@
 }
 
 /*------------------/Header----------------*/
-.imgs {
-  margin-top: 0;
+* {
+  box-sizing: border-box;
 }
 
-#cell_1 {
-  background-image: url(img/img1.jpg);
+.imgs {
+  margin: 0;
+  display: flex;
+}
+
+.cell {
+  flex: 33.3%;
 }
 
 /*@media (min-width: 768px) {
